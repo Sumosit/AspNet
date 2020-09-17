@@ -1,0 +1,40 @@
+D:\VirtProject\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfoInputs.cache
+D:\VirtProject\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfo.cs
+D:\VirtProject\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.CoreCompileInputs.cache
+D:\VirtProject\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+D:\VirtProject\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\VirtProject\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.json
+D:\VirtProject\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\VirtProject\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.exe
+D:\VirtProject\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.deps.json
+D:\VirtProject\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.runtimeconfig.json
+D:\VirtProject\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.runtimeconfig.dev.json
+D:\VirtProject\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.dll
+D:\VirtProject\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.pdb
+D:\VirtProject\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.RazorTargetAssemblyInfo.cache
+D:\VirtProject\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication1.StaticWebAssets.Manifest.cache
+D:\VirtProject\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication1.StaticWebAssets.xml
+D:\VirtProject\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.dll
+D:\VirtProject\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.pdb
+D:\VirtProject\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.genruntimeconfig.cache
+D:\VirtProject\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csprojAssemblyReference.cache
+D:\Asp Net\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Asp Net\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Asp Net\WebApplication1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Asp Net\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.exe
+D:\Asp Net\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.deps.json
+D:\Asp Net\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.runtimeconfig.json
+D:\Asp Net\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.runtimeconfig.dev.json
+D:\Asp Net\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.dll
+D:\Asp Net\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.pdb
+D:\Asp Net\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csprojAssemblyReference.cache
+D:\Asp Net\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.CoreCompileInputs.cache
+D:\Asp Net\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+D:\Asp Net\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfoInputs.cache
+D:\Asp Net\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfo.cs
+D:\Asp Net\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.RazorTargetAssemblyInfo.cache
+D:\Asp Net\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication1.StaticWebAssets.Manifest.cache
+D:\Asp Net\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication1.StaticWebAssets.xml
+D:\Asp Net\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.dll
+D:\Asp Net\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.pdb
+D:\Asp Net\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.genruntimeconfig.cache
