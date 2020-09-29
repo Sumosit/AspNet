@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.FileProviders;
@@ -15,13 +15,13 @@ namespace WebApplication1
             {
                 EnableDirectoryBrowsing = true,
                 FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\Visible")),
-                RequestPath = "/qwerty",
+                RequestPath = "/list",
                 EnableDefaultFiles = false
             }) ;
 
             app.Run(async (context) =>
                {
-                   await context.Response.WriteAsync("ALALALAL");
+                   await context.Response.WriteAsync("嫌い");
                });
 
               

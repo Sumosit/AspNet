@@ -1,10 +1,124 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+<meta charset="utf-8">
+<title>Vue js</title>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
 <body>
+<div id="app">
+  Y = <input v-model="formula">
+  <p>
+  	<div v-if="select === 'singleSelect'">
+  		<button v-on:click="select = 'multipleSelect'">Переключить</button>
+  	</div>
+  	<div v-else-if="select === 'multipleSelect'">
+  		<button v-on:click="select = 'singleSelect'">Переключить</button>
+  	</div>
+	</p>
 
+	<div v-if="select === 'singleSelect'">
+		<select v-model="selectedX">
+		  	<option disabled value="">Please select one</option>
+			<option v-for="x in optionsX" v-bind:value="x.value">
+				{{x.text}}
+			</option>
+		</select>
+		 
+		 <select v-model="selectedY"/>
+		  	<option disabled value="">Please select one</option>
+			<option v-for="y in optionsY" v-bind:value="y.value">
+				{{y.text}}
+			</option>
+		</select>
+
+		<select v-model="selectedOp">
+		  	<option disabled value="">Please select one</option>
+			<option v-for="math in optionsMathOperations" v-bind:value="math.value">
+				{{math.text}}
+			</option>
+		</select>
+	</div>
+
+	<div v-if="select === 'multipleSelect'">
+		<select v-model="selectedX" multiple>
+		  	<option disabled value="">Please select one</option>
+			<option v-for="x in optionsX" v-bind:value="x.value">
+				{{x.text}}
+			</option>
+		</select>
+		 
+		 <select v-model="selectedY" multiple>
+		  	<option disabled value="">Please select one</option>
+			<option v-for="y in optionsY" v-bind:value="y.value">
+				{{y.text}}
+			</option>
+		</select>
+
+		<select v-model="selectedOp" multiple>
+		  	<option disabled value="">Please select one</option>
+			<option v-for="math in optionsMathOperations" v-bind:value="math.value">
+				{{math.text}}
+			</option>
+		</select>
+	</div>
+</div>
+
+<script>
+var app = new Vue({
+  el: '#app',
+  data: {
+    selectedX: '',
+    selectedY: '',
+    selectedOp: '',
+    formula: '',
+    select: 'singleSelect',
+    optionsX: [
+    	{ text: 'MIBK(X1)', value: 'MIBK(X1)' },
+      	{ text: 'NIPR(X2)', value: 'NIPR(X2)' },
+      	{ text: '02CN(X3)', value: '02CN(X3)' }
+    ],
+    optionsY: [
+    	{ text: 'TEMP(Y1)', value: 'TEMP(Y1)' },
+      	{ text: 'PRES(Y2)', value: 'PRES(Y2)' },
+      	{ text: 'CONC(Y3)', value: 'CONC(Y3)' }
+    ],
+    optionsMathOperations: [
+    	{ text: 'ABS', value: 'ABS' },
+      	{ text: 'SIN', value: 'SIN' },
+      	{ text: 'COS', value: 'COS' }
+    ]
+  },
+  watch: {
+  	selectedX: function(val){
+  		this.formula = ''
+  		if (val == 'MIBK(X1)') {
+  			this.selectedX = 'X1'
+  		} 
+  		else if (val == 'NIPR(X2)') {
+  			this.selectedX = 'X1X2'
+  		} 
+  		else if (val == '02CN(X3)') {
+  			this.selectedX = 'X1X2X3'
+  		}
+  		this.formula = this.formula + this.selectedX + this.selectedY
+  	},
+  	selectedY: function(val) {
+  		this.formula = ''
+  		if (val == 'TEMP(Y1)') {
+  			this.selectedY = 'Y1'
+  		}
+  		else if (val == 'PRES(Y2)') {
+  			this.selectedY = 'Y1Y2'
+  		}  
+  		else if (val == 'CONC(Y3)') {
+  			this.selectedY = 'Y1Y2Y3'
+  		}
+  		this.formula = this.formula + this.selectedX + this.selectedY
+  	}
+
+  }
+})
+</script>
 </body>
 </html>
